@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+width:100%;
+background-color: rgb(0, 0, 0);
+margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding:30px 0;
+    
+}
+.footer-col{
+    font-family: "Strait", sans-serif;
+    color: #ffffff;
+    width:15%;
+    line-height: 2;
+    letter-spacing: 1px;
+    
+
+}
+.footer-col h4{
+    font-family: "Strait", sans-serif;
+    
+    font-size: 18px;
+    color:rgb(255, 106, 0);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+
+}
+.footer-col h6{
+    font-family: "Strait", sans-serif;
+   
+    font-size: 15px;
+}
+.social-media a{
+    font-family: "Strait", sans-serif;
+    text-decoration: none;
+    
+}
+.footer-col a{
+    font-family: "Strait", sans-serif;
+   
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-media2{
+    font-family: "Strait", sans-serif;
+    display:flex;
+    justify-content: space-between;
+    
+   
+}
+@media (max-width:800px){
+    .footer {
+        background-color: rgb(0, 0, 0);
+        padding: 100px 0;
+        text-align: center; 
+    }
+    
+    .footer-col {
+        width: 60%;
+        margin: 0 auto; 
+    }
+    
+    .footer-col h4, 
+    .footer-col ul {
+        text-align: center; 
+        margin: 0; 
+    }
+    
+    .footer-col ul {
+        padding: 0; 
+    }
+    
+    .social-media, .social-media2 {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column; 
+    }
+    
+    .copyright {
+        display: flex;
+        color: #ffffff;
+        flex-direction: column;
+        font-family: "Strait", sans-serif;
+        align-items: center;
+        padding-top: 50px;
+    }
+    
+}

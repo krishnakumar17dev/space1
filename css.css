@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    width: 100%;
+    border-radius: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    background: rgb(0, 0, 0, .1);
+    backdrop-filter: blur(10px);
+    padding: 0 20px; 
+}
+#logo{
+     
+        font-family: "Strait", sans-serif;
+        font-weight:bolder;
+        font-style: normal;
+        letter-spacing: 5px;
+      
+      
+}
+.offical{
+    font-size:2vmin;
+    padding-left:10px;
+    justify-content: center;
+    align-self:center;
+    font-family: "Strait", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color:aliceblue;
+    letter-spacing: 5px;
+    
+      
+}
+.nav_links {
+    display: flex;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vmin;
+    font-family: poppins;
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar h1,h2 {
+    float: left;
+    justify-content: start;
+    margin-top: 12.5px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 4.5vmin;
+    font-family:monospace;
+    display: flex;
+    margin-left: 10px; 
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+header {
+    background-image: url(group1.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.header_content {
+   
+    width: 100%;
+    height:100%;
+    font-size: 6vmin;
+    color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width: 2px;
+    paint-order: stroke fill;
+}
+
+.header_text {
+    
+  
+    font-weight:bolder;
+    font-style: normal;
+    padding-bottom: 25px;
+    display: flex;
+  
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    font-weight: 100%;
+    font-style: normal;
+    display: flex;
+}
+/*sections*/
+.section1{
+    background-image: url(section2.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#welcome{
+    font-size: 5.5vmin;
+   font-family: "Strait", sans-serif;
+        font-weight:bolder;
+        font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-top: 150px;
+}
+.who2{
+    padding-top: 50px;
+}
+
+#whow_we_are{
+    font-size: 3.5vmin;
+    font-family: "Strait", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    
+ 
+}
+#odyssey_1{
+    font-size: 2.6vmin;
+    font-family: "Strait", sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top:50px;
+    justify-content: left;
+    width:70%;
+    word-spacing:5px;
+    line-height:30px;
+    margin-left: 50px;
+
+}
+
+#our_vision{
+    font-size: 3.5vmin;
+    font-family: "Strait", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-top: 50px;
+    
+
+}
+#we_believe{
+    font-size: 2.6vmin;
+    font-family: "Strait", sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top:100px;
+    justify-content: left;
+    width:70%;
+    word-spacing:5px;
+    line-height:30px;
+    margin-left: 50px;
+
+}
+.section3{
+    background-image: url(section3.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.what_we_do{
+    font-size: 3.5vmin;
+    font-family: "Strait", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    padding-top: 80px;
+    text-shadow: 2px 2px 4px #000000
+}
+#workshops{
+    font-size: 2.6vmin;
+    font-family: "Strait", sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top:120px;
+    justify-content: left;
+    width:80%;
+    word-spacing:5px;
+    line-height:30px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+#workshops h5{
+    font-size: 3vmin;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#join_the_journey{
+    font-size: 3.5vmin;
+    font-family: "Strait", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-top: 50px;
+    
+
+}
+#journey_text{
+    font-size: 2.6vmin;
+    font-family: "Strait", sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top:100px;
+    justify-content: left;
+    width:50%;
+    word-spacing:5px;
+    line-height:30px;
+    margin-left: 50px;
+
+}
+.sec3-img{
+    
+    display: none;
+}
+.section4 {
+    background-image: url(section4.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.sec4-img{
+    display: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+     margin-top: 400px;
+   
+   
+}
+.buttons h4 {
+    font-size: 4vmin;
+    font-family: "Strait", sans-serif;
+
+}
+.past, .Upcoming {
+    padding: 20px 150px;
+    border-radius: 20px;
+    background-color: chocolate;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.Ongoing{
+    color: #ffffff;
+    padding: 20px 150px;
+    border-radius: 20px;
+    background-color: rgb(3, 1, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.copyright{
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    font-family: "Strait", sans-serif;
+    align-items: center;
+    padding-top: 50px;
+    letter-spacing: 4PX;
+}
+
+
+@media (max-width:800px) {
+    .nav_links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: transform 1s ease-in-out;
+    }
+
+    .nav_links a {
+        margin: 20px 0;
+        font-size: 5vmin;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    .hamburger #menu-img{
+        padding-top: 8px;
+    }
+
+    
+    .nav_links.active {
+        transform: translateX(0%);
+    }
+   
+    header {
+        background-image: url(header-mobile2.png);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .header_content{
+        padding-top: 100px;
+    }
+    .section1{
+        background-image: url(earth-shuttle.png);
+        background-color: #000000;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    #welcome{
+        padding-top: 10px;
+    }
+    #join_the_journey,#journey_text{
+        display: none;
+    }
+    #odyssey_1 ,#we_believe,#workshops,
+    #journey_text{
+        font-size: 2.6vmin;
+    }
+    .section3{
+        background-color: #000000;
+        background-image:url(star.jpg);
+        background-size:cover;
+    }
+    .sec3-img{
+        display: flex;
+        width:100%;
+       
+    }
+    #workshops h5{
+        font-size: 4vmin;
+    }
+    .what_we_do{
+        font-size: 6vmin;
+    }
+    #workshops {
+        font-size: 3.5vmin;
+    }
+    .section4{
+        background-image:url(star.jpg);
+        background-color: #000000;
+    }
+    .sec4-img{
+        display: flex;
+        width:100%;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        
+        }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .past,.Upcoming,.Ongoing{
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 300px; 
+        padding:20px 100px;
+        text-align: center; 
+        white-space: nowrap;
+    
+    }
+   
+  
+}
+

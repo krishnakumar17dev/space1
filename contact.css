@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body{
+    font-family: "Strait", sans-serif;
+    background: black;
+
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction:column ;
+    align-items: start;
+    gap: 20px;
+
+}
+.contact-left-tittle h2{
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    font-size: 4.5vmin;
+    margin-bottom: 5px;
+
+}
+.contact-left-tittle hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: chocolate;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline:none;
+    padding-left: 24px;
+    font-weight: 500;
+    color:rgb(0, 0, 0) ;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius:20px;
+}
+.contact-inputs:focus{
+    border: 2px solid firebrick;
+}
+.contact-inputs::placeholder{
+    color: chocolate;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding:10px 50px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family:"Strait", sans-serif ;
+    gap: 10px;
+    border:none;
+    border-radius: 50px;
+    background:chocolate;
+    cursor: pointer;
+    
+
+}
+.contact-left a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contact-right img {
+width :800px;
+}
+#img2{
+    display: none;
+}
+@media(max-width:800px){
+    .contact-left-tittle h2{
+        padding-top: 300px;
+    }
+    .contact-inputs{
+        width:80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+    #img2{
+        display: flex;
+        width:450px;
+        background-size: cover;
+
+    }
+}
